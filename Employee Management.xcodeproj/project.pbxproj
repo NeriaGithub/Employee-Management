@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D8A5F21BAE0289792C52C92 /* Pods_Employee_Management.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25E2D62650E14AA3C9F85E3 /* Pods_Employee_Management.framework */; };
+		D63386A325FA1FA200415405 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63386A225FA1FA200415405 /* FirebaseManager.swift */; };
+		D63386A625FA257800415405 /* FirebaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63386A525FA257800415405 /* FirebaseViewController.swift */; };
+		D661FFED25F93B6B00F1982D /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D661FFEC25F93B6B00F1982D /* UIImageViewExtension.swift */; };
+		D663C0C025F67E0A00A02333 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D663C0BF25F67E0A00A02333 /* AppDelegate.swift */; };
+		D663C0C225F67E0A00A02333 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D663C0C125F67E0A00A02333 /* SceneDelegate.swift */; };
+		D663C0C425F67E0A00A02333 /* LoginRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D663C0C325F67E0A00A02333 /* LoginRegisterViewController.swift */; };
+		D663C0C725F67E0A00A02333 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D663C0C525F67E0A00A02333 /* Main.storyboard */; };
+		D663C0C925F67E0B00A02333 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D663C0C825F67E0B00A02333 /* Assets.xcassets */; };
+		D663C0CC25F67E0B00A02333 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D663C0CA25F67E0B00A02333 /* LaunchScreen.storyboard */; };
+		D663C0F325F6841000A02333 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D663C0F225F6841000A02333 /* GoogleService-Info.plist */; };
+		D663C0FD25F6857A00A02333 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D663C0FC25F6857A00A02333 /* WebService.swift */; };
+		D663C10325F6874600A02333 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = D663C10225F6874600A02333 /* Employee.swift */; };
+		D66DE4E125F7469900DB599B /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66DE4E025F7469900DB599B /* ViewExtension.swift */; };
+		D66DE4E625F788ED00DB599B /* EmployeeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66DE4E525F788ED00DB599B /* EmployeeListViewController.swift */; };
+		D66DE4E925F78A3600DB599B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66DE4E825F78A3600DB599B /* Constants.swift */; };
+		D66DE4EC25F78B2F00DB599B /* ManagementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66DE4EB25F78B2F00DB599B /* ManagementViewController.swift */; };
+		D6DBB0A725FF46AC00253232 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DBB0A625FF46AC00253232 /* DateExtension.swift */; };
+		D6E85CFC25FDE4E10019E188 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E85CFB25FDE4E10019E188 /* DataManager.swift */; };
+		D6E85CFF25FE17790019E188 /* EmptyStateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E85CFE25FE17790019E188 /* EmptyStateViewController.swift */; };
+		D6E85D0225FE1D7E0019E188 /* AddEmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E85D0125FE1D7E0019E188 /* AddEmployeeViewController.swift */; };
+		D6E85D1925FE4E2A0019E188 /* CustomNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E85D1825FE4E2A0019E188 /* CustomNavigationViewController.swift */; };
+		D6EBBCEF260389F2008AFD7D /* EmployeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EBBCED260389F1008AFD7D /* EmployeeCell.swift */; };
+		D6EBBCF0260389F2008AFD7D /* EmployeeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6EBBCEE260389F1008AFD7D /* EmployeeCell.xib */; };
+		D6ED309A260D012900C35E15 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ED3099260D012900C35E15 /* StringExtension.swift */; };
+		D6ED309D260D042500C35E15 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ED309C260D042500C35E15 /* Alert.swift */; };
+		D6FC5B7B25F80E8400CE492D /* DesignableUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC5B7A25F80E8400CE492D /* DesignableUITextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F80E938156D4EAF136FB9CA /* Pods-Employee Management.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Employee Management.debug.xcconfig"; path = "Target Support Files/Pods-Employee Management/Pods-Employee Management.debug.xcconfig"; sourceTree = "<group>"; };
+		9ABCA70F265406D2C44B0A86 /* Pods-Employee Management.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Employee Management.release.xcconfig"; path = "Target Support Files/Pods-Employee Management/Pods-Employee Management.release.xcconfig"; sourceTree = "<group>"; };
+		B25E2D62650E14AA3C9F85E3 /* Pods_Employee_Management.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Employee_Management.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63386A225FA1FA200415405 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		D63386A525FA257800415405 /* FirebaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseViewController.swift; sourceTree = "<group>"; };
+		D661FFEC25F93B6B00F1982D /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		D663C0BC25F67E0A00A02333 /* Employee Management.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Employee Management.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D663C0BF25F67E0A00A02333 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D663C0C125F67E0A00A02333 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D663C0C325F67E0A00A02333 /* LoginRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRegisterViewController.swift; sourceTree = "<group>"; };
+		D663C0C625F67E0A00A02333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D663C0C825F67E0B00A02333 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D663C0CB25F67E0B00A02333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D663C0CD25F67E0B00A02333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D663C0F225F6841000A02333 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D663C0FC25F6857A00A02333 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		D663C10225F6874600A02333 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		D66DE4E025F7469900DB599B /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		D66DE4E525F788ED00DB599B /* EmployeeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListViewController.swift; sourceTree = "<group>"; };
+		D66DE4E825F78A3600DB599B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D66DE4EB25F78B2F00DB599B /* ManagementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagementViewController.swift; sourceTree = "<group>"; };
+		D6DBB0A625FF46AC00253232 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		D6E85CFB25FDE4E10019E188 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		D6E85CFE25FE17790019E188 /* EmptyStateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateViewController.swift; sourceTree = "<group>"; };
+		D6E85D0125FE1D7E0019E188 /* AddEmployeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmployeeViewController.swift; sourceTree = "<group>"; };
+		D6E85D1825FE4E2A0019E188 /* CustomNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationViewController.swift; sourceTree = "<group>"; };
+		D6EBBCED260389F1008AFD7D /* EmployeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeCell.swift; sourceTree = "<group>"; };
+		D6EBBCEE260389F1008AFD7D /* EmployeeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeCell.xib; sourceTree = "<group>"; };
+		D6ED3099260D012900C35E15 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		D6ED309C260D042500C35E15 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		D6FC5B7A25F80E8400CE492D /* DesignableUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableUITextField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D663C0B925F67E0A00A02333 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8A5F21BAE0289792C52C92 /* Pods_Employee_Management.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50DFD2341743719AC3DA60CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F80E938156D4EAF136FB9CA /* Pods-Employee Management.debug.xcconfig */,
+				9ABCA70F265406D2C44B0A86 /* Pods-Employee Management.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B1687D16C76E5039CFCA2D15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B25E2D62650E14AA3C9F85E3 /* Pods_Employee_Management.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D663C0B325F67E0A00A02333 = {
+			isa = PBXGroup;
+			children = (
+				D663C0BE25F67E0A00A02333 /* Employee Management */,
+				D663C0BD25F67E0A00A02333 /* Products */,
+				50DFD2341743719AC3DA60CD /* Pods */,
+				B1687D16C76E5039CFCA2D15 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D663C0BD25F67E0A00A02333 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D663C0BC25F67E0A00A02333 /* Employee Management.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D663C0BE25F67E0A00A02333 /* Employee Management */ = {
+			isa = PBXGroup;
+			children = (
+				D663C0BF25F67E0A00A02333 /* AppDelegate.swift */,
+				D663C0C125F67E0A00A02333 /* SceneDelegate.swift */,
+				D663C0FC25F6857A00A02333 /* WebService.swift */,
+				D663C0F725F684DD00A02333 /* Model */,
+				D663C0F525F684CC00A02333 /* View */,
+				D663C0F825F684ED00A02333 /* Controller */,
+				D663C0C825F67E0B00A02333 /* Assets.xcassets */,
+				D66DE4E825F78A3600DB599B /* Constants.swift */,
+				D66DE4DF25F7467400DB599B /* Extension */,
+				D663C0CA25F67E0B00A02333 /* LaunchScreen.storyboard */,
+				D663C0F225F6841000A02333 /* GoogleService-Info.plist */,
+				D663C0CD25F67E0B00A02333 /* Info.plist */,
+			);
+			path = "Employee Management";
+			sourceTree = "<group>";
+		};
+		D663C0F525F684CC00A02333 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D663C0C525F67E0A00A02333 /* Main.storyboard */,
+				D6EBBCED260389F1008AFD7D /* EmployeeCell.swift */,
+				D6EBBCEE260389F1008AFD7D /* EmployeeCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D663C0F725F684DD00A02333 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D63386A225FA1FA200415405 /* FirebaseManager.swift */,
+				D663C10225F6874600A02333 /* Employee.swift */,
+				D6E85CFB25FDE4E10019E188 /* DataManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D663C0F825F684ED00A02333 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D63386A525FA257800415405 /* FirebaseViewController.swift */,
+				D663C0C325F67E0A00A02333 /* LoginRegisterViewController.swift */,
+				D66DE4EB25F78B2F00DB599B /* ManagementViewController.swift */,
+				D6E85CFE25FE17790019E188 /* EmptyStateViewController.swift */,
+				D66DE4E525F788ED00DB599B /* EmployeeListViewController.swift */,
+				D6E85D0125FE1D7E0019E188 /* AddEmployeeViewController.swift */,
+				D6E85D1825FE4E2A0019E188 /* CustomNavigationViewController.swift */,
+				D6ED309C260D042500C35E15 /* Alert.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D66DE4DF25F7467400DB599B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D6FC5B7A25F80E8400CE492D /* DesignableUITextField.swift */,
+				D66DE4E025F7469900DB599B /* ViewExtension.swift */,
+				D661FFEC25F93B6B00F1982D /* UIImageViewExtension.swift */,
+				D6DBB0A625FF46AC00253232 /* DateExtension.swift */,
+				D6ED3099260D012900C35E15 /* StringExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D663C0BB25F67E0A00A02333 /* Employee Management */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D663C0D025F67E0B00A02333 /* Build configuration list for PBXNativeTarget "Employee Management" */;
+			buildPhases = (
+				5EBCB5B78263E817A8F49B92 /* [CP] Check Pods Manifest.lock */,
+				D663C0B825F67E0A00A02333 /* Sources */,
+				D663C0B925F67E0A00A02333 /* Frameworks */,
+				D663C0BA25F67E0A00A02333 /* Resources */,
+				B07C930E4E27D7FC6DDD13BE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Employee Management";
+			productName = "Employee Management";
+			productReference = D663C0BC25F67E0A00A02333 /* Employee Management.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D663C0B425F67E0A00A02333 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					D663C0BB25F67E0A00A02333 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = D663C0B725F67E0A00A02333 /* Build configuration list for PBXProject "Employee Management" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D663C0B325F67E0A00A02333;
+			productRefGroup = D663C0BD25F67E0A00A02333 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D663C0BB25F67E0A00A02333 /* Employee Management */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D663C0BA25F67E0A00A02333 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D663C0CC25F67E0B00A02333 /* LaunchScreen.storyboard in Resources */,
+				D663C0F325F6841000A02333 /* GoogleService-Info.plist in Resources */,
+				D663C0C925F67E0B00A02333 /* Assets.xcassets in Resources */,
+				D663C0C725F67E0A00A02333 /* Main.storyboard in Resources */,
+				D6EBBCF0260389F2008AFD7D /* EmployeeCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5EBCB5B78263E817A8F49B92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Employee Management-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B07C930E4E27D7FC6DDD13BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Employee Management/Pods-Employee Management-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Employee Management/Pods-Employee Management-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Employee Management/Pods-Employee Management-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D663C0B825F67E0A00A02333 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63386A325FA1FA200415405 /* FirebaseManager.swift in Sources */,
+				D6E85CFF25FE17790019E188 /* EmptyStateViewController.swift in Sources */,
+				D6E85D0225FE1D7E0019E188 /* AddEmployeeViewController.swift in Sources */,
+				D663C0C425F67E0A00A02333 /* LoginRegisterViewController.swift in Sources */,
+				D661FFED25F93B6B00F1982D /* UIImageViewExtension.swift in Sources */,
+				D6E85D1925FE4E2A0019E188 /* CustomNavigationViewController.swift in Sources */,
+				D6ED309D260D042500C35E15 /* Alert.swift in Sources */,
+				D6E85CFC25FDE4E10019E188 /* DataManager.swift in Sources */,
+				D63386A625FA257800415405 /* FirebaseViewController.swift in Sources */,
+				D663C0C025F67E0A00A02333 /* AppDelegate.swift in Sources */,
+				D6FC5B7B25F80E8400CE492D /* DesignableUITextField.swift in Sources */,
+				D66DE4E125F7469900DB599B /* ViewExtension.swift in Sources */,
+				D66DE4E625F788ED00DB599B /* EmployeeListViewController.swift in Sources */,
+				D6ED309A260D012900C35E15 /* StringExtension.swift in Sources */,
+				D663C0C225F67E0A00A02333 /* SceneDelegate.swift in Sources */,
+				D6DBB0A725FF46AC00253232 /* DateExtension.swift in Sources */,
+				D663C0FD25F6857A00A02333 /* WebService.swift in Sources */,
+				D663C10325F6874600A02333 /* Employee.swift in Sources */,
+				D66DE4E925F78A3600DB599B /* Constants.swift in Sources */,
+				D6EBBCEF260389F2008AFD7D /* EmployeeCell.swift in Sources */,
+				D66DE4EC25F78B2F00DB599B /* ManagementViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D663C0C525F67E0A00A02333 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D663C0C625F67E0A00A02333 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D663C0CA25F67E0B00A02333 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D663C0CB25F67E0B00A02333 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D663C0CE25F67E0B00A02333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D663C0CF25F67E0B00A02333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D663C0D125F67E0B00A02333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F80E938156D4EAF136FB9CA /* Pods-Employee Management.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V5PB2ET49;
+				INFOPLIST_FILE = "Employee Management/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Neria-Jerafi.Employee-Management";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D663C0D225F67E0B00A02333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ABCA70F265406D2C44B0A86 /* Pods-Employee Management.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V5PB2ET49;
+				INFOPLIST_FILE = "Employee Management/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Neria-Jerafi.Employee-Management";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D663C0B725F67E0A00A02333 /* Build configuration list for PBXProject "Employee Management" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D663C0CE25F67E0B00A02333 /* Debug */,
+				D663C0CF25F67E0B00A02333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D663C0D025F67E0B00A02333 /* Build configuration list for PBXNativeTarget "Employee Management" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D663C0D125F67E0B00A02333 /* Debug */,
+				D663C0D225F67E0B00A02333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D663C0B425F67E0A00A02333 /* Project object */;
+}

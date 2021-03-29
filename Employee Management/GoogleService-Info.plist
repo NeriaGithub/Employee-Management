@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>284382851136-1k7slph3qjsrpd2rkn90ns7tf2ki7n96.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.284382851136-1k7slph3qjsrpd2rkn90ns7tf2ki7n96</string>
+	<key>API_KEY</key>
+	<string>AIzaSyALy-p0zIMl7JEbybVa1WKrj0x-27fMB8g</string>
+	<key>GCM_SENDER_ID</key>
+	<string>284382851136</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Neria-Jerafi.Employee-Management</string>
+	<key>PROJECT_ID</key>
+	<string>employee-management-9a262</string>
+	<key>STORAGE_BUCKET</key>
+	<string>employee-management-9a262.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:284382851136:ios:3b9b2d40c3f2a7ab696fa5</string>
+</dict>
+</plist>

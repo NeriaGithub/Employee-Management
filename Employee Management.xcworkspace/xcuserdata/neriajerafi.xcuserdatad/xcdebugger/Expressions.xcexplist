@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "EmployeeListViewController.viewDidDisappear(_:):EmployeeListViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(self.navigationController as? CustomNavigationViewController)?.backDelegate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "EmployeeListViewController.reloadData():EmployeeListViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "firebaseManager">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FirebaseManager.create(employee:completion:):FirebaseManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Constants.Firebase.collection">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "EmployeeListViewController.viewDidLoad():EmployeeListViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(self.navigationController as? CustomNavigationViewController)?.backDelegate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
